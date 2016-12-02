@@ -72,3 +72,6 @@ fos_user:
     registration:
         form:
             type: chat_user_registration
+    profile:
+            form:
+                type: chat_user_profile

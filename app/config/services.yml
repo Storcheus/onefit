@@ -11,3 +11,7 @@ services:
         class: Onefit\ChatBundle\Form\Type\RegistrationFormType
         tags:
             - { name: form.type, alias: chat_user_registration }
+    app.form.profile:
+            class: Onefit\ChatBundle\Form\Type\ProfileFormType
+            tags:
+                - { name: form.type, alias: chat_user_profile }
